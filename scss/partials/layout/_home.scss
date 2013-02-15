@@ -1,0 +1,55 @@
+// ## Home Page Layout
+
+// ### Main Page container.
+// The majority of this is to get it to center and float up to the top.
+#page {
+    width: $total_width;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top:0;
+    left:50%;
+    margin-left: -1 * ($total-width / 2);
+}
+
+.site-header {
+    width: $total_width;
+    height: $home_banner_height;
+    @include background(image-url('header.png') no-repeat);
+    top:0;
+    left: 0;
+    position:absolute;
+    color: $white;
+    a {
+        @include link-colors($white, $medium_orange, $medium_orange, $white);
+        text-decoration: none;
+        @include text-shadow(#424242 2px 2px);
+        @include navbar_font;
+    }
+    h1 {
+        position: absolute;
+        bottom: 1px;
+        left: 0;
+        margin: 0 12px;
+        a {
+            @include logo_font;
+        }
+    }
+    nav {
+        width: $total_width / 2;
+        margin-left: $total_width / 2;
+        position: absolute;
+        bottom: 6px;
+        left: 0;    
+        padding-left: 20px;
+        ul {
+            @include horizontal-list(10px);
+        }
+    }
+
+}
+
+#main {
+    margin-top: $home_banner_height;
+    width: $total_width;
+}

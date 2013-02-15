@@ -5,7 +5,7 @@ require 'normalize'
 http_path = "/"
 css_dir = "css"
 sass_dir = "scss"
-images_dir = "images"
+images_dir = "wp-content/themes/twelvefootguru/images"
 javascripts_dir = "js"
 
 output_style = (environment == :development) ? :expanded : :compressed
