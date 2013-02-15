@@ -33,15 +33,7 @@ License URI: license.txt
 // * Wordpress & _s idiosyncracies
 @import "partials/wordpress";
 
-body {
-    @include body_font;
-    color: $black;
-    @include background-image(linear-gradient(left top, $gradient_top, $gradient_bottom));
-    a {
-        @include link-colors($dark_blue, $dark_violet, $dark_violet, $dark_blue);
-    }
-}
-
+@import "partials/layout/all";
 
 // * Home page structure and layout.
 @import "partials/layout/home";
