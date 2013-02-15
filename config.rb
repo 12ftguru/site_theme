@@ -1,4 +1,4 @@
-# We use normalize to baseline our css. Go to https://github.com/jzorn/compass-normalize-plugin for installation structions
+# We use normalize to baseline our css. Go to https://github.com/jzorn/compass-normalize-plugin for installation instructions
 require 'normalize'
 
 

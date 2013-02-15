@@ -13,3 +13,6 @@ License URI: license.txt
 // * [Normalize](https://github.com/jzorn/compass-normalize-plugin/)
 @import "normalize";
 @include normalize;
+
+// * Make everything use [border-box](http://paulirish.com/2012/box-sizing-border-box-ftw/) for sanity's sake
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
