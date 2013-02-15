@@ -13,6 +13,38 @@ License URI: license.txt
 // * [Normalize](https://github.com/jzorn/compass-normalize-plugin/)
 @import "normalize";
 @include normalize;
+// * Compass Modules: css3, typography & utilities
+@import "compass/css3";
+@import "compass/typography";
+@import "compass/utilities";
 
 // * Make everything use [border-box](http://paulirish.com/2012/box-sizing-border-box-ftw/) for sanity's sake
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+// * Various settings we use throughout our styles.
+@import "partials/variables";
+
+// * Custom utility mixins.
+// @import "partials/mixins";
+
+// * Fonts, font stacks, etc.
+@import "partials/fonts";
+
+// * Wordpress & _s idiosyncracies
+@import "partials/wordpress";
+
+body {
+    @include body_font;
+    color: $black;
+    @include background-image(linear-gradient(left top, $gradient_top, $gradient_bottom));
+    a {
+        @include link-colors($dark_blue, $dark_violet, $dark_violet, $dark_blue);
+    }
+}
+
+
+// * Home page structure and layout.
+@import "partials/layout/home";
+
+// * Sub page structure and layout.
+/* @import "partials/layout/sub"; */

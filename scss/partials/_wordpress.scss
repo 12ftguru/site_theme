@@ -1,0 +1,8 @@
+// ## Wordpress & _s Idiosyncracies
+
+// There's lots of assistive text. We want to not display it.
+nav[role="navigation"] {
+    .assistive-text {
+        display: none;
+    }
+}

@@ -1,0 +1,10 @@
+// ## Layout info for all pages.
+
+body {
+    @include body_font;
+    color: $black;
+    @include background-image(linear-gradient(left top, $gradient_top, $gradient_bottom));
+    a {
+        @include link-colors($dark_blue, $dark_violet, $dark_violet, $dark_blue);
+    }
+}
