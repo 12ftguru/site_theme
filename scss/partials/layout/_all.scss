@@ -3,8 +3,24 @@
 body {
     @include body_font;
     color: $black;
-    @include background-image(linear-gradient(left top, $gradient_top, $gradient_bottom));
+    /* @include background-image(linear-gradient(left top, $gradient_top, $gradient_bottom)); */
+  background-color: $background_yellow !important;
     a {
         @include link-colors($dark_blue, $dark_violet, $dark_violet, $dark_blue);
+      @include link-font;
     }
+}
+
+.read-more {
+  @include background(image-url('read-more.png') no-repeat);
+  height: 25px;
+  width: 120px;
+  display: block;
+  padding: 3px 3px 3px 6px;
+  a {
+    @include link-colors($white, $medium_orange, $medium_orange, $white);
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: none;
+  }
 }

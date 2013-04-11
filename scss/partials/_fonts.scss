@@ -1,31 +1,204 @@
+@font-face {
+  font-family: 'cabinbold';
+  src: url('fonts/cabin/cabin-bold-webfont.eot');
+  src: url('fonts/cabin/cabin-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/cabin/cabin-bold-webfont.woff') format('woff'),
+  url('fonts/cabin/cabin-bold-webfont.ttf') format('truetype'),
+  url('fonts/cabin/cabin-bold-webfont.svg#cabinbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'cabinbold_italic';
+  src: url('fonts/cabin/cabin-bolditalic-webfont.eot');
+  src: url('fonts/cabin/cabin-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/cabin/cabin-bolditalic-webfont.woff') format('woff'),
+  url('fonts/cabin/cabin-bolditalic-webfont.ttf') format('truetype'),
+  url('fonts/cabin/cabin-bolditalic-webfont.svg#cabinbold_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'cabinitalic';
+  src: url('fonts/cabin/cabin-italic-webfont.eot');
+  src: url('fonts/cabin/cabin-italic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/cabin/cabin-italic-webfont.woff') format('woff'),
+  url('fonts/cabin/cabin-italic-webfont.ttf') format('truetype'),
+  url('fonts/cabin/cabin-italic-webfont.svg#cabinitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'cabinmedium';
+  src: url('fonts/cabin/cabin-medium-webfont.eot');
+  src: url('fonts/cabin/cabin-medium-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/cabin/cabin-medium-webfont.woff') format('woff'),
+  url('fonts/cabin/cabin-medium-webfont.ttf') format('truetype'),
+  url('fonts/cabin/cabin-medium-webfont.svg#cabinmedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'cabinmedium_italic';
+  src: url('fonts/cabin/cabin-mediumitalic-webfont.eot');
+  src: url('fonts/cabin/cabin-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/cabin/cabin-mediumitalic-webfont.woff') format('woff'),
+  url('fonts/cabin/cabin-mediumitalic-webfont.ttf') format('truetype'),
+  url('fonts/cabin/cabin-mediumitalic-webfont.svg#cabinmedium_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'cabinregular';
+  src: url('fonts/cabin/cabin-regular-webfont.eot');
+  src: url('fonts/cabin/cabin-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/cabin/cabin-regular-webfont.woff') format('woff'),
+  url('fonts/cabin/cabin-regular-webfont.ttf') format('truetype'),
+  url('fonts/cabin/cabin-regular-webfont.svg#cabinregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'cabinsemibold';
+  src: url('fonts/cabin/cabin-semibold-webfont.eot');
+  src: url('fonts/cabin/cabin-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/cabin/cabin-semibold-webfont.woff') format('woff'),
+  url('fonts/cabin/cabin-semibold-webfont.ttf') format('truetype'),
+  url('fonts/cabin/cabin-semibold-webfont.svg#cabinsemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'cabinsemibold_italic';
+  src: url('fonts/cabin/cabin-semibolditalic-webfont.eot');
+  src: url('fonts/cabin/cabin-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/cabin/cabin-semibolditalic-webfont.woff') format('woff'),
+  url('fonts/cabin/cabin-semibolditalic-webfont.ttf') format('truetype'),
+  url('fonts/cabin/cabin-semibolditalic-webfont.svg#cabinsemibold_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'exomedium';
+  src: url('exo-medium-webfont.eot');
+  src: url('exo-medium-webfont.eot?#iefix') format('embedded-opentype'),
+  url('exo-medium-webfont.woff') format('woff'),
+  url('exo-medium-webfont.ttf') format('truetype'),
+  url('exo-medium-webfont.svg#exomedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'exoregular_italic';
+  src: url('exo-regular-italic-webfont.eot');
+  src: url('exo-regular-italic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('exo-regular-italic-webfont.woff') format('woff'),
+  url('exo-regular-italic-webfont.ttf') format('truetype'),
+  url('exo-regular-italic-webfont.svg#exoregular_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'exoregular';
+  src: url('exo-regular-webfont.eot');
+  src: url('exo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('exo-regular-webfont.woff') format('woff'),
+  url('exo-regular-webfont.ttf') format('truetype'),
+  url('exo-regular-webfont.svg#exoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'exobold';
+  src: url('fonts/exo/exo-bold-webfont.eot');
+  src: url('fonts/exo/exo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/exo/exo-bold-webfont.woff') format('woff'),
+  url('fonts/exo/exo-bold-webfont.ttf') format('truetype'),
+  url('fonts/exo/exo-bold-webfont.svg#exobold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 @mixin navbar_font($font-size: $navbar_font_size) {
-    /* Exo-bold goes here */
-    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: $font-size;
+/* Exo-bold goes here */
+  font-family: exoregular, "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  font-style: normal;
+  font-size: $font-size;
+  font-weight: 300;
 }
 
 @mixin header_font($font-size: $header_font_size) {
-    /* Cabin bold goes here */
-    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: $font-size;
+/* Cabin bold goes here */
+  font-family: cabinregular, Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-size: $font-size;
+  font-weight: 300;
 }
 
 @mixin logo_font($font-size: $logo_font_size) {
-    /* Exo-bold goes here */
-    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: $font-size;
-    text-transform: uppercase;
+/* Exo-bold goes here */
+  font-family: exoregular, "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: $font-size;
+  text-transform: uppercase;
 }
 
 @mixin body_font($font-size: $body_font_size) {
-    font-family: Frutiger, "Frutiger Linotype", Tahoma, Helvetica, sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    font-size: $font-size;
+  font-family: tahoma, Frutiger, "Frutiger Linotype", Tahoma, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: $font-size;
 }
+
+@mixin link_font($font-size: $body_font_size) {
+  font-family: cabinregular, Frutiger, "Frutiger Linotype", Tahoma, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: $font-size;
+}
+

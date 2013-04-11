@@ -1,4 +1,6 @@
 $total_width: 980px;
+$primary_width: 655px;
+$secondary_width: 300px;
 
 $home_banner_height: 158px;
 
@@ -7,12 +9,15 @@ $logo_font_size: 28px;
 $navbar_font_size: 18px;
 $body_font_size: 12px;
 $header_font_size: 18px;
+$header2_font_size: 14px;
+$article_header_font_size: 24px;
 
 // ### Colors
 $white: #ffffff;
 $black: #000000;
 $gradient_top: #ffffd9;
 $gradient_bottom: #e9e6c9;
+$charcoal: #424242;
 
 // #### Blues
 $dark_blue: #2f6ea6;
@@ -34,6 +39,7 @@ $gray_yellow: #bfaf7d;
 $medium_yellow: #ffe389;
 $medium_light_yellow: #ffeaa6;
 $light_yellow: #ffefbe;
+$background_yellow: #ffffd9;
 
 // #### Oranges
 $dark_orange: #a6732c;
