@@ -117,11 +117,11 @@
 
 @font-face {
   font-family: 'exomedium';
-  src: url('exo-medium-webfont.eot');
-  src: url('exo-medium-webfont.eot?#iefix') format('embedded-opentype'),
-  url('exo-medium-webfont.woff') format('woff'),
-  url('exo-medium-webfont.ttf') format('truetype'),
-  url('exo-medium-webfont.svg#exomedium') format('svg');
+  src: url('fonts/exo/exo-medium-webfont.eot');
+  src: url('fonts/exo/exo-medium-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/exo/exo-medium-webfont.woff') format('woff'),
+  url('fonts/exo/exo-medium-webfont.ttf') format('truetype'),
+  url('fonts/exo/exo-medium-webfont.svg#exomedium') format('svg');
   font-weight: normal;
   font-style: normal;
 
@@ -129,11 +129,11 @@
 
 @font-face {
   font-family: 'exoregular_italic';
-  src: url('exo-regular-italic-webfont.eot');
-  src: url('exo-regular-italic-webfont.eot?#iefix') format('embedded-opentype'),
-  url('exo-regular-italic-webfont.woff') format('woff'),
-  url('exo-regular-italic-webfont.ttf') format('truetype'),
-  url('exo-regular-italic-webfont.svg#exoregular_italic') format('svg');
+  src: url('fonts/exo/exo-regular-italic-webfont.eot');
+  src: url('fonts/exo/exo-regular-italic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/exo/exo-regular-italic-webfont.woff') format('woff'),
+  url('fonts/exo/exo-regular-italic-webfont.ttf') format('truetype'),
+  url('fonts/exo/exo-regular-italic-webfont.svg#exoregular_italic') format('svg');
   font-weight: normal;
   font-style: normal;
 
@@ -141,11 +141,11 @@
 
 @font-face {
   font-family: 'exoregular';
-  src: url('exo-regular-webfont.eot');
-  src: url('exo-regular-webfont.eot?#iefix') format('embedded-opentype'),
-  url('exo-regular-webfont.woff') format('woff'),
-  url('exo-regular-webfont.ttf') format('truetype'),
-  url('exo-regular-webfont.svg#exoregular') format('svg');
+  src: url('fonts/exo/exo-regular-webfont.eot');
+  src: url('fonts/exo/exo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/exo/exo-regular-webfont.woff') format('woff'),
+  url('fonts/exo/exo-regular-webfont.ttf') format('truetype'),
+  url('fonts/exo/exo-regular-webfont.svg#exoregular') format('svg');
   font-weight: normal;
   font-style: normal;
 
@@ -189,7 +189,7 @@
 }
 
 @mixin body_font($font-size: $body_font_size) {
-  font-family: tahoma, Frutiger, "Frutiger Linotype", Tahoma, Helvetica, sans-serif;
+  font-family: cabinregular, Frutiger, "Frutiger Linotype", Tahoma, Helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: $font-size;
