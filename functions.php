@@ -75,6 +75,7 @@ function twelvefootguru_setup() {
 	 * Enable support for Post Formats
 	 */
 	add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'quote', 'link' ) );
+
 }
 endif; // twelvefootguru_setup
 add_action( 'after_setup_theme', 'twelvefootguru_setup' );
@@ -139,7 +140,9 @@ add_action( 'widgets_init', 'twelvefootguru_widgets_init' );
  * Enqueue scripts and styles
  */
 function twelvefootguru_scripts() {
+wp_enqueue_style( 'slickstyle', get_template_directory_uri() . '/js/slick-master/slick/slick.css' );
 	wp_enqueue_style( 'style', get_stylesheet_uri() );
+  wp_enqueue_script( 'slickjs', get_template_directory_uri() . '/js/slick-master/slick/slick.min.js', array( 'jquery' ), '1.3.4', true );
 
 	wp_enqueue_script( 'small-menu', get_template_directory_uri() . '/js/small-menu.js', array( 'jquery' ), '20120206', true );
 

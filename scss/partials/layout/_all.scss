@@ -24,3 +24,52 @@ body {
     text-decoration: none;
   }
 }
+
+.alignleft {
+   float: left;
+   margin: 0 10px 10px 0;
+}
+
+.alignright {
+   float: right;
+   margin: 0 0 10px 10px;
+}
+
+#nav-above {
+  display: block;
+  clear: both;
+  height: 20px;
+  position: relative;
+  .nav-previous {
+    left: 10px;
+    top: 5px;
+    position: absolute;
+  }
+  .nav-next {
+    right: 10px;
+    top: 5px;
+    position: absolute;
+  }
+}
+
+#nav-below {
+  display: block;
+  clear: both;
+  height: 20px;
+  position: relative;
+  .nav-previous {
+    left: 10px;
+    top: 5px;
+    position: absolute;
+  }
+  .nav-next {
+    right: 10px;
+    top: 5px;
+    position: absolute;
+  }
+}
+.entry-meta {
+  display: block;
+  clear: both;
+  height: 20px;
+}
