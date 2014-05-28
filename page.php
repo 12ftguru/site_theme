@@ -20,7 +20,7 @@ get_header(); ?>
           blog
         <?php elseif(is_page( 'portfolio' )): ?>
 
-          <div class="recentProjects">
+          <div class="recentProjectsPortfolio">
           <div class="twelvefoottitle">
               <h1>Portfolio</h1>
           </div>
@@ -34,17 +34,18 @@ get_header(); ?>
               while ( $the_query->have_posts() ) {
                   $the_query->the_post();
                   if ( get_field('portfolio_thumb') ) {
-                      echo '<a href="';
+                      echo '<li><a href="';
                       echo the_permalink();
-                      echo '"><li>' ;
+                      print '" class="wrapper"><span class="text">'.get_the_title().'</span>' ;
                       print '<img src="'.get_field('portfolio_thumb').'">';
-                      echo '</li></a>';
+                      echo '</a></li>';
                   } else {
-                    echo '<a href="';
+                    echo '<li><a href="';
                     echo the_permalink();
-                    echo '"><li>' ;
+                    print '" class="wrapper"><span class="text">'.get_the_title().'</span>' ;
                     the_post_thumbnail('medium');
-                    echo '</li></a>';
+                    echo '</a></li>';
+
                   }
               }
               echo '</ul>';

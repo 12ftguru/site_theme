@@ -62,24 +62,19 @@ get_header(); ?>
                 </div>
                 <?php
                 // The Query
-                // $the_query = new WP_Query('category_name=Featured');
+                $second_query = new WP_Query('category_name=Portfolio');
 
                 // The Loop
-                if ( $the_query->have_posts() ) {
+                if ( $second_query->have_posts() ) {
                     echo '<ul>';
-                    while ( $the_query->have_posts() ) {
-                        $the_query->the_post();
+                    while ( $second_query->have_posts() ) {
+                        $second_query->the_post();
                         if ( get_field('front_page_thumb') ) {
                             print '<li><a href="';
                             print the_permalink();
-                            print '" title ="'.get_the_title().'">' ;
+                            print '" class="wrapper">' ;
+                            print '<span class="text">'.get_the_title().'</span>';
                             print '<img src="'.get_field('front_page_thumb') .'">';
-                            print '</a></li>';
-                        } else {
-                            print '<li><a href="';
-                            print the_permalink();
-                            print '" title ="'.get_the_title().'">' ;
-                            the_post_thumbnail('thumbnail');
                             print '</a></li>';
                         }
                     }
@@ -95,7 +90,11 @@ get_header(); ?>
                 </div>
 			</div><!-- #content .site-content -->
 		</div><!-- #primary .content-area -->
+
+        <?php get_sidebar(); ?>
         <div class="push"></div>
+
+        <?php get_footer(); ?>
     </div><!-- #wrapper -->
 
     <script>
@@ -110,5 +109,3 @@ get_header(); ?>
 	});
 });
 </script>
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>

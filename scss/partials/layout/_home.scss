@@ -43,7 +43,7 @@
 
 #primary {
   width: $primary_width;
-  position: absolute;
+  position: relative;
   top: -115px;
   left: $secondary_width + 25;
   article {
@@ -258,8 +258,76 @@ html, body {
         list-style-type: none;
       }
       img {
+        z-index:1;
+      }
+      .wrapper {
+        position: relative;
+        padding: 0;
+        width:150px;
+        display:block;
         margin: 5px;
       }
+      .text {
+        position: absolute;
+        top: 0;
+        color:#000;
+        background-color:rgba(255,255,255,0.8);
+        width: 155px;
+        height: 155px;
+        padding-top:65px;
+        line-height:14px;
+        text-align: center;
+        z-index: 10;
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+      }
+      .text:hover {
+        opacity:1;
+      }
+    }
+  }
+}
+.recentProjectsPortfolio {
+  margin-bottom: 30px;
+  display: block;
+  ul {
+    padding: 0;
+    li {
+      display: inline-block;
+      list-style-type: none;
+    }
+    img {
+      z-index:1;
+    }
+    .wrapper {
+      position: relative;
+      padding: 0;
+      width:300px;
+      display:block;
+      margin: 5px;
+    }
+    .text {
+      position: absolute;
+      top: 0;
+      color:#000;
+      background-color:rgba(255,255,255,0.8);
+      width: 305px;
+      height: 155px;
+      padding-top:65px;
+      line-height:14px;
+      text-align: center;
+      z-index: 10;
+      opacity: 0;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+    }
+    .text:hover {
+      opacity:1;
     }
   }
 }
