@@ -9,7 +9,7 @@
  */
 ?>
 
-	</div><!-- #main .site-main -->
+
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
@@ -19,6 +19,7 @@
 			<?php printf( __( 'Theme: %1$s by %2$s.', 'twelvefootguru' ), 'Twelve Foot Guru', '<a href="http://12ftguru.com/" rel="designer">Bryan P Johnson <bryan@12ftguru.com></a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon .site-footer -->
+</div><!-- #main .site-main -->
 </div><!-- #page .hfeed .site -->
 
 <?php wp_footer(); ?>

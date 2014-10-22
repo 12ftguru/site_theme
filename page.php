@@ -40,11 +40,12 @@ get_header(); ?>
                       print '<img src="'.get_field('portfolio_thumb').'">';
                       echo '</a></li>';
                   } else {
-                    echo '<a href="';
+                    echo '<li><a href="';
                     echo the_permalink();
-                    echo '"><li>' ;
+                    print '" class="wrapper"><span class="text">'.get_the_title().'</span>' ;
                     the_post_thumbnail('medium');
-                    echo '</li></a>';
+                    echo '</a></li>';
+
                   }
               }
               echo '</ul>';

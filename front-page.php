@@ -90,7 +90,11 @@ get_header(); ?>
                 </div>
 			</div><!-- #content .site-content -->
 		</div><!-- #primary .content-area -->
+
+        <?php get_sidebar(); ?>
         <div class="push"></div>
+
+        <?php get_footer(); ?>
     </div><!-- #wrapper -->
 
     <script>
@@ -105,5 +109,3 @@ get_header(); ?>
 	});
 });
 </script>
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
